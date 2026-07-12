@@ -1,12 +1,26 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}",
-            "projectName": "java-learning-journey"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "OverridingInher",
+      "request": "launch",
+      "mainClass": "Day11.OverridingInher",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "Overriding",
+      "request": "launch",
+      "mainClass": "Day11.Overriding",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "projectName": "java-learning-journey"
+    }
+  ]
 }

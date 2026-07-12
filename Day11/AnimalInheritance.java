@@ -1,12 +1,12 @@
 package Day11;
-class Animal
+class AnimalEat
 {
    void eat()
    {
     System.out.println("Animal is eatiing");
-   } 
+   }
 }
-   class Dog extends Animal
+   class DogEat extends AnimalEat
    {
     void bark()
     {
@@ -16,7 +16,7 @@ class Animal
 
 public class AnimalInheritance {
     public static void main(String[] args) {
-      Dog b1=new Dog();
+      DogEat b1=new DogEat();
       b1.eat();
       b1.bark();
     }
