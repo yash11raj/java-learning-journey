@@ -1,5 +1,7 @@
 {
+    "java.project.sourcePaths": ["."],
+    "java.project.outputPath": "bin",
     "code-runner.executorMap": {
-        "java": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$workspaceRoot\\scripts\\run-java.ps1\" -RelPath \"$relativeFile\""
+        "java": "cd /d \"$workspaceRoot\" && javac -d bin -sourcepath \"$workspaceRoot\" \"$fullFileName\" && cmd /v:on /c \"set CLS=$relativeFileNameWithoutExt && set CLS=!CLS:\\=.! && set CLS=!CLS:/=.! && java -cp bin !CLS!\""
     }
 }
