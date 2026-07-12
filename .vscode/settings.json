@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "java": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$workspaceRoot\\scripts\\run-java.ps1\" -RelPath \"$relativeFile\""
+    }
+}
