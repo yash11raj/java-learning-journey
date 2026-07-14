@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FinalClass",
+      "request": "launch",
+      "mainClass": "Day12.FinalClass",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "FinalMethod",
+      "request": "launch",
+      "mainClass": "Day12.FinalMethod",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "FinalVariable",
+      "request": "launch",
+      "mainClass": "Day12.FinalVariable",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "SuperKeyword",
+      "request": "launch",
+      "mainClass": "Day12.SuperKeyword",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "Upcasting",
+      "request": "launch",
+      "mainClass": "Day12.Upcasting",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "DynamicMethodDispatch",
+      "request": "launch",
+      "mainClass": "Day12.DynamicMethodDispatch",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
       "name": "OverridingInher",
       "request": "launch",
       "mainClass": "Day11.OverridingInher",
