@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AbstractConstructor",
+      "request": "launch",
+      "mainClass": "Day13.AbstractConstructor",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "AbstractBank",
+      "request": "launch",
+      "mainClass": "Day13.AbstractBank",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "AbstractShape",
+      "request": "launch",
+      "mainClass": "Day13.AbstractShape",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
+      "name": "AbstractAnimal",
+      "request": "launch",
+      "mainClass": "Day13.AbstractAnimal",
+      "projectName": "java-learning-journey_b3d2644b"
+    },
+    {
+      "type": "java",
       "name": "FinalClass",
       "request": "launch",
       "mainClass": "Day12.FinalClass",
